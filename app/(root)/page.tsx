@@ -6,7 +6,6 @@ const HomePage = async () => {
 
   return (
     <>
-      <p>Hello</p>
       <ProductList data={latestProducts} title="Newest Arrivals" limit={4} />
     </>
   );
